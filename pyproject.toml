@@ -67,7 +67,7 @@
     ipython = "^8.4.0"
     pkce = "^1.0.3"
     igraph = "^0.10.2"
-    requests-toolbelt = "^0.10.1"
+    requests-toolbelt = ">=0.10.1,<1.1.0"
 
 [tool.poetry.dev-dependencies]
     mypy = "^1.2"
