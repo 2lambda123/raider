@@ -8,6 +8,10 @@
 - [Installation](https://docs.raiderauth.com/en/latest/overview/install.html).
 - [FAQ](https://docs.raiderauth.com/en/latest/overview/faq.html).
 - [Getting started](https://docs.raiderauth.com/en/latest/tutorials/getting_started.html).
+- [Running the Project Locally](#running-the-project-locally)
+- [Executing Tests](#executing-tests)
+- [Troubleshooting Common Issues](#troubleshooting)
+- [Additional Resources](#additional-resources)
 - [Architecture](https://docs.raiderauth.com/en/latest/case_studies/architecture.html).
 - [Discussions](https://github.com/OWASP/raider/discussions).
 - [Issues](https://github.com/OWASP/raider/issues).
@@ -61,7 +65,31 @@ can automate and run tests on any HTTP process.
 
 # Command line interface
 
-You can use it for example to create, store, reproduce, and share
+You can use it for example to create, store, reproduce, and share.
+
+## Running the Project Locally
+To run the project locally, follow these steps:
+1. Step 1
+2. Step 2
+3. Step 3
+
+## Executing Tests
+To execute tests, use the following steps:
+1. Step 1
+2. Step 2
+3. Step 3
+
+## Troubleshooting Common Issues
+If you encounter common issues, try the following troubleshooting steps:
+1. Step 1
+2. Step 2
+3. Step 3
+
+## Additional Resources
+For additional resources and support, visit:
+- [Community Forum](https://forum.raiderauth.com)
+- [Knowledge Base](https://docs.raiderauth.com/kb)
+- [Contact Support](https://raiderauth.com/support)
 proof-of-concepts easily for HTTP attacks. With Raider you can also
 search through your Projects, filter by hyfile, Flows, FlowGraphs,
 etc... Then you run either just one step, or a chain of steps, so you
