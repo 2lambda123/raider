@@ -13,7 +13,7 @@
 ;; Saves the `ghost-admin-api-session` cookie into the `session_id`
 ;; variable.
 (setv session_id
-      (Cookie "ghost-admin-api-session"))
+      (ghost.users.cookies.Cookie "ghost-admin-api-session"))
 
 
 ;; Defines the first/only Flow object (A Flow that affects
