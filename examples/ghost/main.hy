@@ -1,5 +1,12 @@
 ;; Add whatever commands you want to execute at the beginning
-(print "Ghost")
+(try
+  (print "Ghost")
+  (except [Exception e]
+    (with [f (open "error_log.txt" :mode "w")]
+      (f.write (str e))
+      (f.flush))
+    (print e)
+    (print (traceback.format_exc)))
 
 ;; Change the URL here
 (setv base_url "https://ghost.server.url/")
@@ -36,7 +43,7 @@
          ;; failed, so Raider quits with an error message.
          :operations [(Http
                         :status 404
-                        :action (Error "Login failed"))]))
+                        :action (Error (str "Login failed. Request URL: " (/ Combine base_url "/ghost/api/v3/admin/session")) :status 404 :response-body (Print.body)))]))
 
 
 ;; Defines a new Flow object to get the user's information. Doesn't
