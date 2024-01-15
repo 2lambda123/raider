@@ -30,8 +30,10 @@ pieces of information.
 +If you encounter issues with GitHub Actions, follow these troubleshooting steps:
 +1. Check the workflow logs to identify the cause of the failure.
 +2. Identify any error messages or warnings in the logs.
-+3. Diagnose the root cause of the failure based on the information in the logs.
-+4. Provide error logs and a description of the issue.
++3. Update the workflow configuration to address the identified errors.
++4. Test the modified workflow to ensure that the issues have been resolved.
++5. Commit and push the changes to the repository to apply the fixes.
++4. Test the modified workflow to ensure that the issues have been resolved.
 
 ### Troubleshooting GitHub Actions
 +If you encounter issues with GitHub Actions, follow these troubleshooting steps:
@@ -41,7 +43,7 @@ pieces of information.
 
 ### Resolving Common Issues
 +To resolve common issues related to GitHub Actions, follow these steps:
-+1. Update the workflow configuration to address the identified errors.
++3. Commit and push the changes to the repository to apply the fixes.+1. Update the workflow configuration to address the identified errors.
 +2. Test the modified workflow to ensure that the issues have been resolved.
 +3. Commit and push the changes to the repository to apply the fixes.
 
