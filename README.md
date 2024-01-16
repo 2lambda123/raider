@@ -79,11 +79,11 @@ To execute tests, use the following steps:
 2. Step 2
 3. Step 3
 
-## Troubleshooting Common Issues
-If you encounter common issues, try the following troubleshooting steps:
-1. Step 1
-2. Step 2
-3. Step 3
+## Troubleshooting GitHub Actions
+If you encounter issues with GitHub Actions, follow these troubleshooting steps:
+1. Check the workflow logs to identify the cause of the failure.
+2. Identify any error messages or warnings in the logs.
+3. Take appropriate actions based on the identified issues.
 
 ## Additional Resources
 For additional resources and support, visit:
