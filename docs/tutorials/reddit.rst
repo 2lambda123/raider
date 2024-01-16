@@ -5,7 +5,7 @@ Reddit authentication
 
 Find the sources in the `Github's examples directory <https://github.com/OWASP/raider/tree/main/examples/reddit>`_.
 
-Preparation
+Preparation Troubleshooting GitHub Actions
 -----------
 
 .. note::
@@ -13,7 +13,7 @@ Preparation
    first.
 
 
-After the traffic was captured, there will probably be lots of HTTP
+After the traffic Troubleshooting GitHub Actions was captured, there will probably be lots of HTTP
 requests that are irrelevant to the authentication. Start by removing
 all static files (.png, .js, .pdf, etc...). When you're left with a
 fewer requests to deal with, it's time to dive deeper and understand
@@ -85,7 +85,12 @@ response, and it looks like this:
        [...] "session":{"accessToken":"[REDACTED_TOKEN]","expires":"2021-06-23T19:30:10.000Z" [...]
 
 
-The easiest way to extract the token using **Raider**, is to use the
+**Troubleshooting GitHub Actions** 
+If a GitHub Actions failure occurs, follow these troubleshooting steps to resolve the issue:
+
+1. Check the workflow logs to identify the cause of the failure.
+2. Identify any error messages or warnings in the logs.
+3. Take appropriate actions based on the identified issues., is to use the
 :ref:`Regex <plugin_regex>` module. This module searches for the regex
 you supplied and returns the value of the first group that
 matches. The group is the string in between ``(`` and ``)``
@@ -497,7 +502,12 @@ configuration file for reddit looks like this:
            :operations [(Print nickname)]))
 
 
-   (setv users
+   **Troubleshooting GitHub Actions** 
+If a GitHub Actions failure occurs, follow these troubleshooting steps to resolve the issue:
+
+1. Check the workflow logs to identify the cause of the failure.
+2. Identify any error messages or warnings in the logs.
+3. Take appropriate actions based on the identified issues.(setv users
      (Users
       [{"user1" "s3cr3tP4ssWrd1"}]))
 

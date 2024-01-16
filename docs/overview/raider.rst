@@ -26,6 +26,24 @@ machine`. Each step is a different :term:`Flow`, with its own inputs
 and outputs. Those can be cookies, headers, CSRF tokens, or other
 pieces of information.
 
+### Troubleshooting GitHub Actions
++If you encounter issues with GitHub Actions, follow these troubleshooting steps:
++1. Check the workflow logs to identify the cause of the failure.
++2. Identify any error messages or warnings in the logs.
++3. Take appropriate actions based on the identified issues.
+
+### Analyzing Workflow Logs
++To analyze the workflow logs for potential errors, follow these steps:
++1. Open the GitHub Actions workflow logs in the GitHub repository.
++2. Look for any error messages, warnings, or unexpected behavior.
++3. Diagnose the root cause of the failure based on the information in the logs.
+
+### Resolving Common Issues
++To resolve common issues related to GitHub Actions, follow these steps:
++1. Update the workflow configuration to address the identified errors.
++2. Test the modified workflow to ensure that the issues have been resolved.
++3. Commit and push the changes to the repository to apply the fixes.
+
 Each application needs its own configuration directory for **Raider**
 to work. The configuration is written in `hylang
 <https://docs.hylang.org/>`_. The language choice was done for
