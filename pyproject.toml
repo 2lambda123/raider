@@ -70,7 +70,7 @@
     requests-toolbelt = "^0.10.1"
 
 [tool.poetry.dev-dependencies]
-    mypy = "^1.2"
+    mypy = "^1.9"
     pre-commit = "^3.2.2"
     flake8 = "^5.0.4"
     pylint = "^3.0.3"
