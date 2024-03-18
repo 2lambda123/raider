@@ -278,4 +278,3 @@ class Cookie(Plugin):
         )
         cookie.plugins.append(parent_plugin)
         return cookie
-

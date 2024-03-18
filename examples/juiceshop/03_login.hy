@@ -12,5 +12,3 @@
            :action (Failure "Login failed")
            :otherwise [(Print authtoken)
                        (Success "Login successfull")])]))
-
-
