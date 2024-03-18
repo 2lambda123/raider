@@ -27,5 +27,3 @@ _build
 
 # Sphinx build files
 /docs/_build/*
-
-

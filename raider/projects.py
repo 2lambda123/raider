@@ -16,10 +16,10 @@
 """Project classes holding project configuration.
 """
 
+import sys
 from typing import Dict, List, Optional
 
 import igraph
-import sys
 
 from raider.config import Config
 from raider.flow import Flow
@@ -33,8 +33,8 @@ from raider.utils import (
     create_hy_expression,
     eval_file,
     eval_project_file,
-    get_project_file,
     get_project_dir,
+    get_project_file,
     list_hyfiles,
     list_projects,
 )
@@ -191,7 +191,6 @@ class Project:
 
             self.flowstore.add_flowgraph("DEFAULT", FlowGraph(first_flow))
             self.flowgraphs[first_flow_hyfile].insert(0, "DEFAULT")
-
 
         self.loaded = True
 

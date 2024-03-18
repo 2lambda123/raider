@@ -69,7 +69,6 @@ class File(Plugin):
         function: Callable[..., Optional[Union[str, bytes]]] = None,
         flags: int = 0,
     ) -> None:
-
         """Initializes the :class:`File` :class:`Plugin
         <raider.plugins.common.Plugin>`.
 
