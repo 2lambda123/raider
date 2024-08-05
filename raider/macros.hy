@@ -8,7 +8,7 @@
   (import pkce)
   (global code_verifier)
   (global code_challenge)
-  
+
   (setv code_verifier (.generate_code_verifier pkce :length 43))
   (setv code_challenge (.get_code_challenge pkce code_verifier))
   `(do
@@ -22,4 +22,3 @@
      (if pkce_enabled
          {"code_verifier" ~code_verifier}
          {})))
-

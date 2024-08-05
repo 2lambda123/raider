@@ -47,7 +47,7 @@ colors = {
 
 
 def colored_text(text: str, color: str):
-    return colors[color] + text + colors['RESET']
+    return colors[color] + text + colors["RESET"]
 
 
 def default_user_agent() -> str:
@@ -76,7 +76,7 @@ def get_config_dir() -> str:
     envpath = os.getenv("RAIDERPATH")
     if envpath:
         return envpath
-    
+
     confdir = os.path.expanduser("~/.config")
     raider_conf = os.path.join(confdir, "raider")
     os.makedirs(raider_conf, exist_ok=True)
