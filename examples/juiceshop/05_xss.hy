@@ -20,4 +20,3 @@
 (setv xss_test
       (FlowGraph
         get_user_profile))
-

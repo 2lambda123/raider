@@ -48,7 +48,7 @@ Raider's configuration is inspired by Emacs. Hylang is used, which is
 LISP on top of Python. LISP is used because of its "Code is Data, Data
 is Code" property. With the magic of LISP macros generating
 configuration automatically becomes easy. Flexibility is in its DNA,
-meaning it can be infinitely extended with actual code. 
+meaning it can be infinitely extended with actual code.
 You can use it for example to create, store, reproduce, and share
 proof-of-concepts easily for HTTP attacks. With Raider you can also
 search through your Projects, filter by hyfile, Flows, FlowGraphs,

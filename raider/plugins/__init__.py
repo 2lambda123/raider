@@ -1,5 +1,6 @@
 """Import Raider plugins.
 """
+
 # flake8: noqa
 from raider.plugins.basic import *
 from raider.plugins.common import Empty, Parser, Plugin, Processor
