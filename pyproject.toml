@@ -62,7 +62,7 @@
     python = ">=3.8,<3.11"
     hy = "^1.0.a4"
     requests = "^2.25.1"
-    bs4 = "^0.0.1"
+    bs4 = ">=0.0.1,<0.0.3"
     funcparserlib = "^1.0.0a0"
     ipython = "^8.4.0"
     pkce = "^1.0.3"
