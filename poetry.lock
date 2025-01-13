@@ -12,17 +12,6 @@ files = [
 ]
 
 [[package]]
-name = "appdirs"
-version = "1.4.4"
-description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
-optional = false
-python-versions = "*"
-files = [
-    {file = "appdirs-1.4.4-py2.py3-none-any.whl", hash = "sha256:a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128"},
-    {file = "appdirs-1.4.4.tar.gz", hash = "sha256:7d5d0167b2b1ba821647616af46a749d1c653740dd0d2415100fe26e27afdf41"},
-]
-
-[[package]]
 name = "appnope"
 version = "0.1.3"
 description = "Disable App Nap on macOS >= 10.9"
@@ -578,20 +567,17 @@ files = [
 
 [[package]]
 name = "hy"
-version = "1.0a4"
-description = "Lisp and Python love each other."
+version = "1.0.0"
+description = "A Lisp dialect embedded in Python"
 optional = false
-python-versions = ">= 3.7, < 3.11"
+python-versions = "<3.14,>=3.8"
 files = [
-    {file = "hy-1.0a4-py3-none-any.whl", hash = "sha256:bc484395b1bf7c900d8239e977ac5bcd377101bf04cb3dabc37fe1737d8ad908"},
-    {file = "hy-1.0a4.tar.gz", hash = "sha256:f514e45f1b71127f88ed0f233675698326b85a3bb204a3f9d9afab559bf3efb9"},
+    {file = "hy-1.0.0.tar.gz", hash = "sha256:3a00013e075ff5ce8f5d475ca2be47e4c871f09184ba3533787cb544d32d1f9e"},
 ]
 
 [package.dependencies]
 astor = {version = ">=0.8", markers = "python_version < \"3.9\""}
-colorama = "*"
-funcparserlib = ">=1.0.0a0"
-rply = ">=0.7.7"
+funcparserlib = ">=1.0,<2.0"
 
 [[package]]
 name = "identify"
@@ -1687,20 +1673,6 @@ files = [
 
 [package.dependencies]
 requests = ">=2.0.1,<3.0.0"
-
-[[package]]
-name = "rply"
-version = "0.7.8"
-description = "A pure Python Lex/Yacc that works with RPython"
-optional = false
-python-versions = "*"
-files = [
-    {file = "rply-0.7.8-py2.py3-none-any.whl", hash = "sha256:28ffd11d656c48aeb8c508eb382acd6a0bd906662624b34388751732a27807e7"},
-    {file = "rply-0.7.8.tar.gz", hash = "sha256:2a808ac25a4580a9991fc304d64434e299a8fc75760574492f242cbb5bb301c9"},
-]
-
-[package.dependencies]
-appdirs = "*"
 
 [[package]]
 name = "setuptools"
