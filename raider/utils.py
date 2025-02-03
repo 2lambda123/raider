@@ -13,8 +13,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-"""Functions that are used within Raider.
-"""
+"""Functions that are used within Raider."""
 
 import logging
 import os
@@ -220,7 +219,7 @@ def hy_dict_to_python(hy_dict: Dict[hy.models.Keyword, Any]) -> Dict[str, Any]:
 
 
 def py_dict_to_hy_list(
-    data: Dict[str, Any]
+    data: Dict[str, Any],
 ) -> List[Union[hy.models.String, hy.models.Dict, hy.models.Symbol]]:
     """Converts a python dictionary to a hylang list.
 
@@ -292,7 +291,7 @@ def serialize_hy(
         hy.models.Integer,
         hy.models.Keyword,
         hy.models.String,
-    ]
+    ],
 ) -> str:
     """Serializes hy expression.
 

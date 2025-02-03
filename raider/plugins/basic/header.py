@@ -12,8 +12,7 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-"""Plugin to work with headers.
-"""
+"""Plugin to work with headers."""
 import re
 from base64 import b64encode
 from functools import partial

@@ -13,8 +13,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-"""Plugins used to process data.
-"""
+"""Plugins used to process data."""
 
 import base64
 import urllib

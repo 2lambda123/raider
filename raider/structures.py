@@ -13,8 +13,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-"""Data structures used in Raider.
-"""
+"""Data structures used in Raider."""
 from typing import Any, Dict, Iterator, List, Optional, Tuple
 
 import igraph

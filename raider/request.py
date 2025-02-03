@@ -14,8 +14,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-"""Request class used to handle HTTP.
-"""
+"""Request class used to handle HTTP."""
 
 import json
 import logging

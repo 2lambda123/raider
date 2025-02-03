@@ -1,5 +1,4 @@
-"""Import Raider plugins.
-"""
+"""Import Raider plugins."""
 
 # flake8: noqa
 from raider.plugins.basic import *
