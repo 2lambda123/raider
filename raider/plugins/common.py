@@ -12,8 +12,7 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-"""Common Plugin classes used by other plugins.
-"""
+"""Common Plugin classes used by other plugins."""
 
 
 import logging

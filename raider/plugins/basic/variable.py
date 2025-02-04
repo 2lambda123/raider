@@ -12,8 +12,7 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-"""Variable Plugin to extract user data.
-"""
+"""Variable Plugin to extract user data."""
 
 from raider.plugins.common import Plugin
 

@@ -13,8 +13,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-"""Plugins used to parse data.
-"""
+"""Plugins used to parse data."""
 
 from typing import Optional, Union
 from urllib.parse import parse_qs, urlsplit

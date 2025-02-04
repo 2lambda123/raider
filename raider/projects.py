@@ -13,8 +13,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-"""Project classes holding project configuration.
-"""
+"""Project classes holding project configuration."""
 
 import sys
 from typing import Dict, List, Optional

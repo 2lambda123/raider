@@ -12,8 +12,7 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-"""Plugin to run arbitrary commands.
-"""
+"""Plugin to run arbitrary commands."""
 
 import os
 from typing import Optional

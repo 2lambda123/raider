@@ -12,8 +12,7 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-"""Plugin to work with HTML tags
-"""
+"""Plugin to work with HTML tags"""
 
 import logging
 from typing import Dict, Optional
